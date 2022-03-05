@@ -1,0 +1,35 @@
+.gift {
+    background-color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 36% 63%;
+    grid-template-rows: 100%;
+    position: relative;
+    grid-gap: 0px 0px;
+    justify-items: center;
+    grid-template-areas:
+        "giftSec1"
+        "giftSec2";
+    margin-bottom: 24px;
+
+}
+.regalos{
+    font-size: 18px;
+    height:30px;
+    margin-bottom: 7px;
+}
+.regaloTexto{
+    /* font-size: 12px; */
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.imgGift {
+    height: 100%;
+    width: 133px;
+}
+
+.giftSec2 {
+    padding-top: 20px;
+}
